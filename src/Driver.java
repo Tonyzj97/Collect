@@ -12,7 +12,18 @@ public class Driver {
 		System.out.println();
 		System.out.println();
 		
+		/**
+		 * TreeMap sorts the elements before adding it to the map. The printed map is sorted.
+		 */
 		TreeMapExample treeMap = new TreeMapExample();
+		System.out.println();
+		System.out.println();
+		
+		/**
+		 * HashMap doesn't order the elements when adding to the hashmap. But provides efficient 
+		 * retrieval process
+		 */
+		HashMapExample hashMap = new HashMapExample();
 		
 	}
 
